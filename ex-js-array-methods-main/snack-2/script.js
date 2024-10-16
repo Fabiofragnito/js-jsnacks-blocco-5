@@ -6,9 +6,12 @@ const people = [
 
 // Stampa in console tutti i nomi
 // Risultato: 'Paolo', 'Giulia', 'Marco'
-for (let i = 0; i < people.length; i++) {
-  const element = people[i];
-  console.log(element.name);
+// for (let i = 0; i < people.length; i++) {
+//   const element = people[i];
+//   console.log(element.name);
   
   
-}
+// }
+
+people.forEach(person => console.log(person.name));
+

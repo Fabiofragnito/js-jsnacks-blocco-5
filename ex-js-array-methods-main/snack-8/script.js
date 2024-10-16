@@ -22,14 +22,20 @@ const students = [
 // Recupera la classe dello studente 'Marco Lanci'
 // Risultato: '3C'
 
-const newArray = []
+// const newArray = []
 
-for (let i = 0; i < students.length; i++) {
-  const student = students[i];
-  if (student.name === "Marco Lanci" ) {
-    newArray.push(student.class)
+// for (let i = 0; i < students.length; i++) {
+//   const student = students[i];
+//   if (student.name === "Marco Lanci" ) {
+//     newArray.push(student.class)
     
-  }
+//   }
   
-}
-console.log(newArray);
+// }
+// console.log(newArray);
+
+const classMarco  =  students.find(student => student.name ==="Marco Lanci").class;
+
+console.log(classMarco);
+
+
