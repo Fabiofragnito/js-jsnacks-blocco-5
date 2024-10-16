@@ -21,3 +21,15 @@ const students = [
 
 // Recupera la classe dello studente 'Marco Lanci'
 // Risultato: '3C'
+
+const newArray = []
+
+for (let i = 0; i < students.length; i++) {
+  const student = students[i];
+  if (student.name === "Marco Lanci" ) {
+    newArray.push(student.class)
+    
+  }
+  
+}
+console.log(newArray);
